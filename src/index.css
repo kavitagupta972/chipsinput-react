@@ -61,8 +61,33 @@ button:focus-visible {
   }
   a:hover {
     color: #747bff;
+    cursor: pointer;
   }
   button {
     background-color: #f9f9f9;
   }
+}
+
+.chip-list { 
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.chip {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: rgb(218, 214, 214);
+  width: fit-content;
+  padding: 2px;
+  margin : 5px;
+  font-size: small;
+}
+
+input {
+    border-color: blue;
+    border-radius: 2px;
+    padding : 8px;
+    width:fit-content;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
